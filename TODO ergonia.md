@@ -1,0 +1,11 @@
+- Split Market data feed
+- Reduce cloud cost databricks S3
+- Review cloud cost in general
+- Move from horizon/drw network to AWS systems manager
+- Review KMS as replacement for DRW vault
+- Review bandwidth monitoring for all ergonia interfaces
+	- No easy answer, need to speak with diego to setup new tap potentially
+- Onboard new cirrus /healthcheck endpoint
+- Get ready to have a fast path between tokyo and Frankfurt
+- Review phantom wallet documentation
+- Find the discord for the validator and figure out whats needed to run one with the firedancer client

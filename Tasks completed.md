@@ -1,0 +1,6 @@
+- Docker build add nodejs + npm to rust image
+- Onboard Ian Chen
+- S3 cost optimization
+- Echo get prod fireblocks keys
+- Phantom doability research
+- Cirrus bybit setup
