@@ -1,1 +1,0 @@
-![[network-ergonia-by-michael.png]]![[infra_miro.jpg]]

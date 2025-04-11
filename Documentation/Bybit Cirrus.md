@@ -68,8 +68,7 @@ http-mm-vpce:9014 -> 8083 -> y3gtgmgwc2vk7xcpkrwrx5sam65zuy5a.bybit.com
 http-vpce:9013 -> 8081 -> api.bybit.com (keep VPC endpoint)
 ws-vpce:9012 -> 8080 -> vkmvynjr8moppg2w5kg55jjwiur39z7e.bybit-aws.com
 
-mm websocket 
-`y3gtgmgwc2vk7xcpkrwrx5sam65zuy5a.bybit.com`
+dedicated websocket 
 /v5/private​
 /v5/trade​
 /v5/public/linear​

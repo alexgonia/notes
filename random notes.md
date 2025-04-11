@@ -1,0 +1,1 @@
+- to ssh in carbon prod need to be in erg-traders group

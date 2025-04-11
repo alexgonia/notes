@@ -4,3 +4,5 @@
 - Echo get prod fireblocks keys
 - Phantom doability research
 - Cirrus bybit setup
+- Get new whitelists done for diff exchanges with Robin
+- Carbon bot ownership
