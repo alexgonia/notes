@@ -20,6 +20,27 @@ Caused by:
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 ```
 
+
+```2025-04-16T23:41:25.263443Z  INFO main ThreadId(01) fair_value::events::l3_bookbuilder: Skipping event before snapshot for ARC_USDT_bybit
+2025-04-16T23:41:25.263450Z  INFO main ThreadId(01) fair_value::events::l3_bookbuilder: Skipping event before snapshot for FARTCOIN_USDT_bybit
+2025-04-16T23:41:25.263491Z  INFO main ThreadId(01) fair_value::events::l3_bookbuilder: Skipping event before snapshot for FARTCOIN_USDT_bybit
+thread 'main' panicked at src/fair_value/bin/fair_publisher.rs:172:5:
+Exited loop with error: Eventer actor of type fair_value::events::l3_bookbuilder::L3BookBuilder on message type fair_value::events::TaggedL3 failed to handle message
+
+Caused by:
+    0: L3 bookbuilder got garbage message on ALCH_USDT_okx
+    1: Tried to add new level based on event Take(26) which can't add
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+2025-04-16 19:41:25,287 WARNING - (CapnpTailer) GUIWebSocketServer-0 tailer has a write time drift of 2706.96363ms. It may be running behind!
+2025-04-16T23:41:25.511840Z  WARN main ThreadId(01) fair_value::events::trading_central_chronicle_reader: Trading queue last read index on drop is: 86732571454083
+Dead proc names: [('FairValueRustProcessLauncher', 101)]
+
+...
+
+    1: Tried to add new level based on event Cancel(4150640) which can't add
+
+```
+
 ### Shared memory
 #### Two containers side by side, without sharing anything (other than --network=host)
 ```

@@ -1,4 +1,7 @@
 - Split Market data feed [[Split MD]]
+- Setup some fucking alerting for all load balancers
+	- semi done.. could be better
+- Hardware timestamp
 - Roy - consider enabling tailscale autogroup:self ssh policy
 	- Probably not, don't want to start random machines. Look into it more
 - Adjust leverage trade alerts

@@ -6,3 +6,4 @@
 - Cirrus bybit setup
 - Get new whitelists done for diff exchanges with Robin
 - Carbon bot ownership
+- OKX endpoints failing - figure it out
